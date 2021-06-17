@@ -1,0 +1,72 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    border-radius: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+  }
+
+/*-=-=-=-=-=-=-=-=-=-=-=-*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500;900&display=swap');
+body{
+    
+    font-family: 'Poppins', sans-serif;
+    background-color :#1C1C1C;
+}
+
+#sorteador{
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    
+    text-transform: uppercase;
+}
+
+#container{
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #363636;
+    
+}
+
+ #ini, #fin{
+    font-size: 20px;
+    width: 90px;
+    height: 40px;
+    margin: 2px;
+
+    
+    border: 1px solid black;
+}
+#sortear, #reset{
+    font-size: 100%;
+    width: 90px;
+    height: 40px;
+    margin: 2px;
+
+    background: greenyellow;
+    border: 1px solid black;
+    text-transform: uppercase;   
+}
+
+.sorteio{
+    text-align: center;
+    
+}
+
+#titulo{
+    font-weight: 200;
+}
+
+.sorteio .numeros{
+    font-size: 40px;
+}
